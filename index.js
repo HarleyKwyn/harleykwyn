@@ -13,7 +13,7 @@ app.use(express.static(__dirname + '/public'));
 console.log('Server listening on port: '+server_port);
 app.listen(server_port);
 var watchSymbols = ['io14'];
-io.onConnection
+
 twitter.stream('statuses/filter', { track: watchSymbols }, function(stream) {
   //We have a connection. Now watch the 'data' event for incomming tweets.
   stream.on('data', function(tweet) {
