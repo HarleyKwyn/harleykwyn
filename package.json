@@ -1,0 +1,17 @@
+{
+  "name": "harleykwyn",
+  "version": "0.0.0",
+  "description": "\"Personal website, angular and sockets\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "DEBUG=socket.io* nodemon index.js"
+  },
+  "author": "HarleyKwyn",
+  "license": "ISC",
+  "dependencies": {
+    "express": "3.4.2",
+    "socket.io": "^1.0.6",
+    "node-tweet-stream": "^1.2.2"
+  }
+}
